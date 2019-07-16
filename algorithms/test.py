@@ -164,10 +164,6 @@ if __name__ == "__main__":
 
 
 
-
-
-
-
         time_elapsed = time.time() - since
         print(
             "Train Time {:.0f}m {:.0f}s".format(time_elapsed // 60, time_elapsed % 60)
