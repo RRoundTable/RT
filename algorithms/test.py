@@ -23,7 +23,8 @@ hyper = get_hyperparams()
 dropout = hyper["dropout"]
 mode = hyper["mode"]
 
-assert mode in ["base", "epistemic", "aleatoric", "combined"], "Wrong mode!"
+assert mode in ["base", "epistemic",
+                "aleatoric", "combined"], "Wrong mode!"
 
 # CAMVID_PATH = Path('./CamVid/Camvid/')
 CAMVID_PATH = "./CamVid/CamVid/"
@@ -32,6 +33,13 @@ WEIGHTS_PATH = Path(".weights/")
 RESULTS_PATH.mkdir(exist_ok=True)
 WEIGHTS_PATH.mkdir(exist_ok=True)
 batch_size = hyper["batch_size"]
+
+
+
+
+
+
+
 
 normalize = transforms.Normalize(mean=camvid.mean, std=camvid.std)
 train_joint_transformer = transforms.Compose(
