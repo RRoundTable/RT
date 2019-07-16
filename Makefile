@@ -1,8 +1,8 @@
 test:
-	pytest --pylint --flake8 --mypy
+	pytest --pylint --flake8 --mypy # --cov=algorithms
 
 format:
-	black
+	black .
 	isort -y
 
 dev:
