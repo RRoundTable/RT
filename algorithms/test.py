@@ -6,7 +6,7 @@ import sys
 
 def test() -> None:
     """
-    test
+    test  eeee
     """
     print(sys.maxsize)
 
