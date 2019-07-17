@@ -6,11 +6,7 @@ import sys
 
 def test() -> None:
     """
-<<<<<<< HEAD
-    test  eeee
-=======
-    test eee
->>>>>>> wontak
+    test
     """
     print(sys.maxsize)
 
