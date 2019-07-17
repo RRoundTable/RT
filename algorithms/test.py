@@ -6,7 +6,7 @@ import sys
 
 def test() -> None:
     """
-    test wontak pull request
+    test
     """
     print(sys.maxsize)
 
