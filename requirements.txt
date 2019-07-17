@@ -1,6 +1,7 @@
-# 각 환경에 맞는 torch 설치: https://pytorch.org/get-started/locally/ 참고
-https://download.pytorch.org/whl/cpu/torch-1.1.0-cp36-cp36m-win_amd64.whl 
-https://download.pytorch.org/whl/cpu/torchvision-0.3.0-cp36-cp36m-win_amd64.whl 
+# https://pytorch.org/get-started/locally
+torch==1.0.1
+# https://download.pytorch.org/whl/cpu/torch-1.1.0-cp36-cp36m-win_amd64.whl 
+# https://download.pytorch.org/whl/cpu/torchvision-0.3.0-cp36-cp36m-win_amd64.whl 
 
 # etc module
 numpy==1.16.2

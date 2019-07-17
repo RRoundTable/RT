@@ -1,18 +1,18 @@
-dist xenial
+dist: xenial
 
-language python
-python
-    - 3.7.2
+language: python
+python:
+    - "3.6"
 
-install
+install:
      - make dep
      - make dev
 
-script
+script:
     # run static analysis and format check
-    - pip list  grep numpy
+    - pip list | grep numpy
     - make test
 
-cache
-  directories
-    ~rl-examples
+cache:
+  directories:
+    ~/rl-examples
