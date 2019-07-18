@@ -3,8 +3,6 @@ tiramisu
 paper at
 reference:
 """
-from torch import nn
-
 from algorithms.segmentation.tiramisu.layers import *
 
 hyper = {
