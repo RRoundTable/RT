@@ -4,6 +4,7 @@ torch==1.1
 
 # etc module
 numpy==1.16.2
+matplotlib
 scipy
 typing
 cloudpickle
