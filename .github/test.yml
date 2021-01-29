@@ -1,0 +1,13 @@
+name: 'Triggered from comment'
+on:
+  repository_dispatch:
+    types: [BuildUniqueTitle]
+
+jobs:
+  one:
+    runs-on: ubuntu-latest
+      steps:
+      - name: 'Dump GitHub context'
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
