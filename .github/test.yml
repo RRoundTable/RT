@@ -2,6 +2,7 @@ name: 'Build from comment'
 on:
     repository_dispatch:
         types: [Post-Comment]
+    push:
 
 jobs:
         one:
